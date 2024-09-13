@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 import model.Orcamento;
 import model.OrcamentoProxy;
 
-public class App {
+public class Main {
     public static void main(String[] args) {
         Orcamento orcamento = new Orcamento(new BigDecimal ("100"), new BigDecimal(10));
         System.out.println("Valor do orcament0 =" + orcamento.getValorOrcamento());
